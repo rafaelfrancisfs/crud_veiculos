@@ -1,0 +1,49 @@
+{
+  "veiculos": [
+    {
+      "id": 1,
+      "placa": "AAA-1234",
+      "chassi": "qwertyu1234567",
+      "renavam": "98765432",
+      "modelo": "Fusca",
+      "marca": "WV",
+      "ano": 1970
+    },
+    {
+      "id": 2,
+      "placa": "BBB-4212",
+      "chassi": "lkjhgfds1236",
+      "renavam": "98765jhgfd",
+      "modelo": "Opala",
+      "marca": "Chevrolet",
+      "ano": 1980
+    },
+    {
+      "id": 3,
+      "placa": "CCC-4444",
+      "chassi": "kjhgfnbv876",
+      "renavam": "7654568jhg",
+      "modelo": "Caravan",
+      "marca": "Chevrolet",
+      "ano": 1977
+    },
+    {
+      "placa": "DDD-2222",
+      "chassi": "lkhgfd1236",
+      "renavam": "98ds5jhgfd",
+      "modelo": "Opala Diplomata",
+      "marca": "Chevrolet",
+      "ano": 1976,
+      "id": 4
+    },
+    {
+      "placa": "tets",
+      "chassi": "tes",
+      "renavam": "et",
+      "modelo": "ets",
+      "marca": "ets",
+      "ano": "12",
+      "id": 5
+    }
+  ]
+}

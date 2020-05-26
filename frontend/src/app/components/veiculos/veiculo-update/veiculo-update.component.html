@@ -1,0 +1,34 @@
+<mat-card>
+    <mat-card-title>Atualizar Cadatro de Veiculo</mat-card-title>
+    <form>
+        <mat-form-field class="inputId">
+            <input matInput placeholder="Id" [(ngModel)]="veiculo.id" name="id" disabled>
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="Placa" [(ngModel)]="veiculo.placa" name="placa">
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="Chassi" [(ngModel)]="veiculo.chassi" name="Chassi">
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="Renavam" [(ngModel)]="veiculo.renavam" name="renavam">
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="Modelo" [(ngModel)]="veiculo.modelo" name="modelo">
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="Marca" [(ngModel)]="veiculo.marca" name="marca">
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="Ano de Fabricação" [(ngModel)]="veiculo.ano" name="ano">
+        </mat-form-field>
+    </form>
+</mat-card>
+<mat-card>
+    <button mat-raised-button (click)="updateVeiculo()" color="primary">
+        Atualizar
+    </button>
+    <button mat-raised-button (click)="cancel()">
+        Cancelar
+    </button>
+</mat-card>

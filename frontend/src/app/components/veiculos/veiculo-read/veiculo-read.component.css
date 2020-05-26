@@ -1,0 +1,22 @@
+table {
+    width: 100%;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+th {
+    font-weight: 500;
+    color: blueviolet;
+}
+
+.btnDel {
+    font-size: 18px;
+    color: crimson;
+    margin: 6px 6px 6px 6px;
+}
+
+.btnEdit {
+    font-size: 18px;
+    color: #ECB818;
+    margin: 6px 6px 6px 6px;
+}
